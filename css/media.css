@@ -1,0 +1,253 @@
+/* ══════════ HERO ══════════ */
+@media (max-width: 991.98px) {
+    #hero-section {
+        background-attachment: scroll;
+    }
+}
+
+@media (max-width: 575.98px) {
+    #hero-section {
+        padding-top: 0;
+        min-height: 100svh;
+    }
+
+    #hero-section h1 {
+        font-size: 2rem;
+    }
+
+    #hero-section .lead {
+        font-size: 1rem;
+    }
+
+    .search-box {
+        padding: 1rem;
+        margin: 0 0.5rem;
+    }
+
+    #hero-section .fs-2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+    .search-box {
+        padding: 1.25rem;
+    }
+}
+
+/* ══════════ MEGA MENU ══════════ */
+@media (max-width: 991.98px) {
+    .mega-menu {
+        position: static;
+        transform: none;
+        width: 100%;
+        height: auto;
+        max-height: 70vh;
+        overflow-y: auto;
+        box-shadow: none;
+        border: none;
+        border-top: 1px solid #e2e8f0;
+        padding: 1rem;
+        border-radius: 0;
+    }
+
+    .mega-menu .row {
+        flex-direction: column;
+    }
+
+    .mega-menu .col-lg-3,
+    .mega-menu .col-lg-2,
+    .mega-menu .col-lg-4 {
+        width: 100%;
+    }
+
+    .mega-menu .section-title {
+        margin-top: 1rem;
+        padding-top: 1rem;
+        border-top: 1px solid #f1f5f9;
+    }
+
+    .mega-menu .section-title:first-of-type {
+        margin-top: 0;
+        padding-top: 0;
+        border-top: none;
+    }
+
+    .location-banner {
+        height: 65px;
+    }
+
+    .property-type-link {
+        padding: .5rem 1rem;
+    }
+}
+
+/* ══════════ NAVBAR ══════════ */
+@media (max-width: 991.98px) {
+    .navbar-collapse {
+        max-height: 80vh;
+        overflow-y: auto;
+    }
+
+    .navbar-nav {
+        padding: .5rem 0;
+        gap: 0;
+    }
+
+    .nav-link {
+        padding: .65rem 1rem;
+        border-radius: .5rem;
+    }
+}
+
+/* ══════════ FEATURED PROPERTIES ══════════ */
+@media (max-width: 991.98px) {
+    .property-card .img-wrap {
+        height: 220px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .property-card .img-wrap {
+        height: 200px;
+    }
+
+    .property-card .card-body {
+        padding: 1rem;
+    }
+}
+
+/* ══════════ SERVICES TABS ══════════ */
+@media (max-width: 991.98px) {
+    .services-tabs {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        justify-content: flex-start;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+    }
+
+    .services-tabs::-webkit-scrollbar {
+        display: none;
+    }
+
+    .services-tabs .nav-link {
+        white-space: nowrap;
+        padding: .75rem 1rem;
+        font-size: .9rem;
+    }
+
+    .service-img {
+        height: 260px;
+    }
+
+    .tab-stat-box {
+        position: static;
+        margin-top: 1rem;
+        display: inline-block;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .service-img {
+        height: 220px;
+    }
+
+    .tab-icon-wrap {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+/* ══════════ TESTIMONIALS ══════════ */
+@media (max-width: 991.98px) {
+    .testimonial-card {
+        padding: 1.5rem;
+    }
+
+    .testimonial-card blockquote {
+        font-size: 1rem;
+    }
+
+    .carousel-control-prev {
+        left: -10px;
+    }
+
+    .carousel-control-next {
+        right: -10px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .testimonial-card {
+        padding: 1.25rem;
+        margin: 0 .25rem;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        display: none;
+    }
+}
+
+/* ══════════ FAQ ══════════ */
+@media (max-width: 575.98px) {
+    .faq-item .accordion-button {
+        font-size: 1rem;
+        padding: 1rem 1.25rem;
+        min-height: 60px;
+    }
+
+    .faq-item .accordion-body {
+        padding: 0 1.25rem 1.25rem;
+        font-size: .95rem;
+    }
+}
+
+/* ══════════ CONTACT ══════════ */
+@media (max-width: 991.98px) {
+    .contact-form-wrap {
+        padding: 1.5rem;
+    }
+
+    .social-bar {
+        padding: 1.5rem;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .contact-card {
+        padding: 1rem;
+    }
+
+    .contact-card .icon-circle {
+        width: 48px;
+        height: 48px;
+        margin-bottom: 1rem;
+    }
+
+    .contact-form-wrap {
+        padding: 1.25rem;
+    }
+
+    .social-btn {
+        width: 40px;
+        height: 42px;
+    }
+}
+
+/* ══════════ FOOTER ══════════ */
+@media (max-width: 575.98px) {
+    .footer-social-btn {
+        width: 36px;
+        height: 36px;
+    }
+}
+
+/* ══════════ REDUCE MOTION ══════════ */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        transition: none;
+        animation: none;
+    }
+}
